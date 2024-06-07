@@ -1,6 +1,6 @@
 import React from 'react'
 import {HERO_CONTENT} from "../constants"
-// import profilePic from "../assets/kevinRushProfile"
+import profilePic from "../assets/profile.jpg"
 
 
 const Hero = () => {
@@ -14,6 +14,11 @@ const Hero = () => {
 
                     <p className='my-2 max-w-xl py-6 font-light tracking-tighter '>{HERO_CONTENT}</p>
                 </div>
+            </div>
+            <div className="w-full lg:w-1/2 lg:p-8">
+
+            <div className="flex justify-center"></div>
+              <img src={profilePic} alt="" />
             </div>
         </div>
       
